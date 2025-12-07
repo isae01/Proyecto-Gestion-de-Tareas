@@ -130,7 +130,7 @@ formNuevaTarea.addEventListener("submit", (e) => {
 
   if (fechaVencimiento < fechaCreacion) {
     alert(
-      "⚠️ La fecha de vencimiento no puede ser anterior a la fecha de creación."
+      "La fecha de vencimiento no puede ser anterior a la fecha de creación."
     );
     return;
   }
